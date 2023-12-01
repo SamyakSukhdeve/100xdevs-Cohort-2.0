@@ -1,0 +1,32 @@
+.vjs-play-progress::before {
+  display: none !important;
+}
+.vjs-control-bar .vjs-progress-control .vjs-progress-holder .vjs-play-progress {
+  background-color: white;
+}
+.vjs-control-bar .vjs-progress-control .vjs-progress-holder {
+  position: relative;
+}
+.vjs-mouse-display {
+  bottom: 30px;
+
+  color: white;
+  width: fit-content !important;
+  padding: 7px;
+
+  height: fit-content !important ;
+}
+.chapter {
+  border-right: 3.5px solid black;
+  width: fit-content;
+  position: absolute;
+  height: 100%;
+  transition-duration: 0.2s;
+}
+.Chapter-button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  background-color: gray;
+  color: white;
+}
